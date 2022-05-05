@@ -1,6 +1,7 @@
 # Client requirements
   - create an ecommerce website
   - create a backend API
+  - create a frontend API
 
 # Commands
   - initialize git repo in local - `git init`
