@@ -1,3 +1,11 @@
+# Dev requirements
+  - create a separate branch
+  - create main.js
+  - create file .env.local
+  - create file .env.development
+  - create file .env.production
+
+
 # Client requirements
   - create an ecommerce website
   - create a backend API
