@@ -23,6 +23,14 @@
   - push changes to remote repo - `git push origin <branch name>`
   - pull all branches - `git fetch --all`
   - view git commit - `git log`
+  - stage single file - `git add <file-name>`
+  - stage multiple file - `git add <file-name> <file-name>`
+  - stage all file - ` git add . `
+  - remove changes after saving - `git stash`
+  - unstage single file - `git restore --staged <file-name>`
+  - unstage multiple file - `git restore --staged <file-name> <file-name>`
+  - unstage all file - ` git restore --staged . `
+  - undo a commit - `git reset HEAD~`
   
   - branching
     - create a new branch - `git checkout -b <branch name>`
@@ -30,7 +38,7 @@
     - delete a branch - `git branch -d <branch name>`
     - rename a branch - `git branch -m <branch name>`
     - show branch name - `git branch`
-
+    - show remote branch - `git remote show origin`
 
   - merging and rebasing
     - rebase one branch code with another - `git rebase <branch name>`
