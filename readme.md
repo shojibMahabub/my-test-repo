@@ -4,7 +4,8 @@
   - create file .env.local
   - create file .env.development
   - create file .env.production
-
+  - add .gitignore
+  - ignore .env.local file
 
 # Client requirements
   - create an ecommerce website
@@ -27,6 +28,10 @@
     - switch to a branch - `git checkout <branch name>`
     - delete a branch - `git branch -d <branch name>`
     - rename a branch - `git branch -m <branch name>`
+
+  - merging and rebasing
+    - rebase one branch code with another - `git rebase <branch name>`
+    - merge one branch code with another - `git merge <branch name>`
 
 # Branch guide
   - master branch == prodcution == user will use this version of code
