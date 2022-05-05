@@ -31,6 +31,7 @@
   - unstage multiple file - `git restore --staged <file-name> <file-name>`
   - unstage all file - ` git restore --staged . `
   - undo a commit - `git reset HEAD~`
+  - pushing all branch - `git push --all origin`
   
   - branching
     - create a new branch - `git checkout -b <branch name>`
