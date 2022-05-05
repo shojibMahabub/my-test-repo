@@ -21,13 +21,16 @@
   - see status of local git repo - `git status`
   - git pull command - `git pull origin <branch-name>`
   - push changes to remote repo - `git push origin <branch name>`
-  - show branch name - `git branch`
+  - pull all branches - `git fetch --all`
+  - view git commit - `git log`
   
   - branching
     - create a new branch - `git checkout -b <branch name>`
     - switch to a branch - `git checkout <branch name>`
     - delete a branch - `git branch -d <branch name>`
     - rename a branch - `git branch -m <branch name>`
+    - show branch name - `git branch`
+
 
   - merging and rebasing
     - rebase one branch code with another - `git rebase <branch name>`
