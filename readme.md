@@ -18,6 +18,7 @@
   - add files to local repo - `git add <file>`
   - commit changes to local repo - `git commit -m "message"`
   - see status of local git repo - `git status`
+  - git pull command - `git pull origin <branch-name>`
   - push changes to remote repo - `git push origin <branch name>`
   - show branch name - `git branch`
   
